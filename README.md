@@ -1,5 +1,5 @@
 # Lux.Ai
-Lux bot is designed to help end the dependence on Microsoft. This our Phase 2 Roadmap, with phase datasets created.
+Lux bot is designed to help end the dependence on Microsoft. This our Phase 2 Roadmap, with phase one datasets created.
 ---
 
 # **LUX Bot Project**
