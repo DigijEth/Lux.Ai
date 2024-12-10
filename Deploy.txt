@@ -1,0 +1,54 @@
+### **What This Script Does**
+
+1. **Creates Folder Structure**:
+   - `frontend/`: For the React-based frontend.
+   - `backend/`: For the Node.js-based backend.
+   - `contracts/`: For Solidity contracts managed by Hardhat.
+   - `scripts/`: For deployment and utility scripts.
+   - `ipfs/`: For IPFS integration.
+
+2. **Initializes Packages**:
+   - Backend: Installs `express`, `web3`, and other dependencies.
+   - Frontend: Sets up a React app with Axios.
+   - Contracts: Sets up Hardhat for smart contract management.
+
+3. **Creates Boilerplate Code**:
+   - A basic `LuxAiGuide` NFT smart contract.
+   - A Hardhat deployment script.
+   - An IPFS integration script with example usage.
+
+4. **Adds Example Files**:
+   - A sample IPFS file (`example.txt`).
+   - Configuration files (`hardhat.config.js`).
+
+---
+
+### **Next Steps**
+1. **Configure Environment Variables**:
+   - Add your Infura project ID and private key to `hardhat.config.js`.
+   - Add your OpenAI API key to `backend/.env`.
+
+2. **Compile and Deploy Contracts**:
+   ```bash
+   cd contracts
+   npx hardhat compile
+   npx hardhat run ../scripts/deploy_contract.js --network solena
+   ```
+
+3. **Test IPFS Integration**:
+   ```bash
+   cd ipfs
+   node upload_to_ipfs.js
+   ```
+
+4. **Start Backend**:
+   ```bash
+   cd backend
+   node server.js
+   ```
+
+5. **Start Frontend**:
+   ```bash
+   cd frontend
+   npm start
+   ```
