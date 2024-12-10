@@ -28,7 +28,8 @@ LUX Bot is an AI-powered Linux, Unix, and BSD specialist designed to help users 
 ## **Architecture**
 
 ### **Frontend**
-- **Technology**: React.js (recommended), Vue.js, or Svelte.
+- **Technology**: React.js
+- 
 - **Purpose**: Provide a responsive and user-friendly interface for:
   - Guide generation and minting.
   - Subscription management.
